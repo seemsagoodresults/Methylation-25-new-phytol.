@@ -1,0 +1,1 @@
+nohup bismark --genome ../citrus_ichangsis_genome -1 1_clean_1.fq -2 1_clean_2.fq --parallel 2&

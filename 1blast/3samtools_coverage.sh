@@ -1,0 +1,1 @@
+nohup samtools coverage 1_clean_1_bismark_bt2_pe.sort.bam > 1_clean_1_bismark_bt2_pe.sort.coverage.txt&

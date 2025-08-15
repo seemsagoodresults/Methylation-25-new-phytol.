@@ -1,0 +1,3 @@
+Rscript ../11.software/run_DM_analysis.R -s samples_info.txt -c contrasts.txt -f calmeth --context CpG --gff Climon_v1_primary-annotation.gff --upstream 2000 --downstream 200 -t 8 -o CpG --dm dmp &>nohup.CpG.dmp.out&
+Rscript ../11.software/run_DM_analysis.R -s samples_info.txt -c contrasts.txt -f calmeth --context CHG --gff Climon_v1_primary-annotation.gff --upstream 2000 --downstream 200 -t 8 -o CHG --dm dmp &>nohup.CHG.dmp.out&
+Rscript ../11.software/run_DM_analysis.R -s samples_info.txt -c contrasts.txt -f calmeth --context CHH --gff Climon_v1_primary-annotation.gff --upstream 2000 --downstream 200 -t 8 -o CHH --dm dmp &>nohup.CHH.dmp.out&
