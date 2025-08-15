@@ -1,0 +1,1 @@
+nohup perl ../DMG_upstream2k_gene_downstram2k.pl ./filter_depth4_nC5.dmr ichang_chromosome_filter267+234gene.sort.gff3 filter_depth4_nC5_gene_CG.dmr filter_depth4_nC5_upstream_2k_CG.dmr filter_depth4_nC5_downstream_2k_CG.dmr&
